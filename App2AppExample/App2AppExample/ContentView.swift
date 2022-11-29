@@ -15,7 +15,7 @@ struct ContentView: View {
     
     @State var chainId: String = "8217"
     
-    @State var message: String = "fingerlabs"
+    @State var message: String = "favorlet"
     
     @State var toAddress: String = "0x1707Cc19778A773c45C1EA03f62482481d3c0fBD"
     @State var amount: String = "100000000000000000" // 0.1 KLAY
@@ -228,8 +228,9 @@ struct ContentView: View {
     }
 }
 
+
 struct ContentView_Previews: PreviewProvider {
-    
+
     static var previews: some View {
         VStack(spacing: 0) {
             ContentView()
