@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.6.4)
+  - BigInt (5.2.0)
+  - DIKit (1.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.6.2)
+  - BigInt (~> 5.2)
+  - DIKit (~> 1.6)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BigInt
+    - DIKit
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  DIKit: 0fe7624fc09beb2ec9ef1a83efd973f72feefd4c
+
+PODFILE CHECKSUM: 1c8d1ee722b9d3e2b8e7aa59a9a69c57f0f08ff9
+
+COCOAPODS: 1.11.3

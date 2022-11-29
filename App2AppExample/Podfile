@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'App2AppExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for App2AppExample
+  
+  # DIKit (https://github.com/Liftric/DIKit/tree/release)
+  pod 'DIKit', '~> 1.6'
+  
+  # Alamofire (https://github.com/Alamofire/Alamofire)
+  pod 'Alamofire', '~> 5.6.2'
+  
+  # BigInt (https://github.com/attaswift/BigInt)
+  pod 'BigInt', '~> 5.2'
+
+
+  target 'App2AppExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'App2AppExampleUITests' do
+    # Pods for testing
+  end
+
+end

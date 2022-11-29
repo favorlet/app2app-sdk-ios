@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-App2AppExample/Pods-App2AppExample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework
+${BUILT_PRODUCTS_DIR}/DIKit/DIKit.framework
