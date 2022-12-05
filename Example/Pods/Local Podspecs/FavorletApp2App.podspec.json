@@ -1,0 +1,22 @@
+{
+  "name": "FavorletApp2App",
+  "version": "0.1.0",
+  "summary": "A short description of FavorletApp2App.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/evahpirazzi/FavorletApp2App",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "evahpirazzi": "evahpirazzi@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/evahpirazzi/FavorletApp2App.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FavorletApp2App/Classes/**/*"
+}

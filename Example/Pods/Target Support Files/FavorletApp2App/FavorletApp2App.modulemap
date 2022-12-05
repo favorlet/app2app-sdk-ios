@@ -1,0 +1,6 @@
+framework module FavorletApp2App {
+  umbrella header "FavorletApp2App-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,0 @@
-framework module Pods_App2AppExample_App2AppExampleUITests {
-  umbrella header "Pods-App2AppExample-App2AppExampleUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
