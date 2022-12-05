@@ -1,6 +1,0 @@
-framework module Pods_FavorletApp2App_Example {
-  umbrella header "Pods-FavorletApp2App_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
