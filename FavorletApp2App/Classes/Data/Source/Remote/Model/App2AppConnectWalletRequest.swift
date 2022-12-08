@@ -7,13 +7,24 @@
 
 import Foundation
 
-struct App2AppConnectWalletRequest: Codable {
+public struct App2AppConnectWalletRequest: Codable {
     var action: String
     var chainId: Int
     var blockChainApp: App2AppBlockChainApp
 
     
-    func convertParams() -> [String: Any] {
+    public init(
+        action: String,
+        chainId: Int,
+        blockChainApp: App2AppBlockChainApp
+    ) {
+        self.action = action
+        self.chainId = chainId
+        self.blockChainApp = blockChainApp
+    }
+    
+    
+    public func convertParams() -> [String: Any] {
         return [
             "action": self.action,
             "chainId": self.chainId,

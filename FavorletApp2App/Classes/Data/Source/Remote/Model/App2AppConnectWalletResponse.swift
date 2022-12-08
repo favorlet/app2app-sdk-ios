@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct App2AppConnectWalletResponse: Decodable {
-    var requestId: String?
-    var expiredAt: Int?
-    var error: App2AppError?
+public struct App2AppConnectWalletResponse: Decodable {
+    public var requestId: String?
+    public var expiredAt: Int?
+    public var error: App2AppError?
+    
 }

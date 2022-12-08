@@ -7,12 +7,21 @@
 
 import Foundation
 
-struct App2AppSignMessage: Codable {
+public struct App2AppSignMessage: Codable {
     var from: String
     var value: String
     
     
-    func convertParams() -> [String: Any] {
+    public init(
+        from: String,
+        value: String
+    ) {
+        self.from = from
+        self.value = value
+    }
+    
+    
+    public func convertParams() -> [String: Any] {
         return [
             "from": self.from,
             "value": self.value

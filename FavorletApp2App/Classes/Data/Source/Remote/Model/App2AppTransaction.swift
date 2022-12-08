@@ -7,16 +7,33 @@
 
 import Foundation
 
-struct App2AppTransaction: Codable {
+public struct App2AppTransaction: Codable {
     var from: String
     var to: String
     var value: String
-    var abi: String
-    var params: String
-    var functionName: String
+    var abi: String?
+    var params: String?
+    var functionName: String?
     
     
-    func convertParams() -> [String: Any?] {
+    public init(
+        from: String,
+        to: String,
+        value: String,
+        abi: String? = nil,
+        params: String? = nil,
+        functionName: String? = nil
+    ) {
+        self.from = from
+        self.to = to
+        self.value = value
+        self.abi = abi
+        self.params = params
+        self.functionName = functionName
+    }
+    
+    
+    public func convertParams() -> [String: Any?] {
         return [
             "from": self.from,
             "to": self.to,

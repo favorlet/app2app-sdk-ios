@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct App2AppError: Codable {
+public struct App2AppError: Codable {
     
     var message: String?
     var code: String?

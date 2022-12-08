@@ -9,15 +9,22 @@ import Foundation
 
 public class App2AppComponent: App2AppProtocol {
     
-    private let requestConnectWalletUseCase = RequestConnectWalletUseCase()
-    private let requestSignMessageUseCase = RequestSignMessageUseCase()
-    private let requestSendCoinUseCase = RequestSendCoinUseCase()
-    private let requestExecuteContractUseCase = RequestExecuteContractUseCase()
-    private let executeUseCase = ExecuteUseCase()
-    private let receiptUseCase = ReceiptUseCase()
+    private let requestConnectWalletUseCase: RequestConnectWalletUseCase
+    private let requestSignMessageUseCase: RequestSignMessageUseCase
+    private let requestSendCoinUseCase: RequestSendCoinUseCase
+    private let requestExecuteContractUseCase: RequestExecuteContractUseCase
+    private let executeUseCase: ExecuteUseCase
+    private let receiptUseCase: ReceiptUseCase
     
     
-    public init() {}
+    public init() {
+        self.requestConnectWalletUseCase = RequestConnectWalletUseCase()
+        self.requestSignMessageUseCase = RequestSignMessageUseCase()
+        self.requestSendCoinUseCase = RequestSendCoinUseCase()
+        self.requestExecuteContractUseCase = RequestExecuteContractUseCase()
+        self.executeUseCase = ExecuteUseCase()
+        self.receiptUseCase = ReceiptUseCase()
+    }
     
     
     public func requestConnectWallet(

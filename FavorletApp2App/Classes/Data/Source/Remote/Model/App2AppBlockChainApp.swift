@@ -7,13 +7,24 @@
 
 import Foundation
 
-struct App2AppBlockChainApp: Codable {
+public struct App2AppBlockChainApp: Codable {
     var name: String
     var successAppLink: String?
     var failAppLink: String?
     
     
-    func convertParams() -> [String: Any?] {
+    public init(
+        name: String,
+        successAppLink: String?,
+        failAppLink: String?
+    ) {
+        self.name = name
+        self.successAppLink = successAppLink
+        self.failAppLink = failAppLink
+    }
+    
+    
+    public func convertParams() -> [String: Any?] {
         return [
             "name": self.name,
             "successAppLink": self.successAppLink,

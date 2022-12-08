@@ -7,33 +7,33 @@
 
 import Foundation
 
-struct App2AppReceiptResponse: Decodable {
-    var requestId: String?
-    var expiredAt: Int?
-    var action: String?
-    var connectWallet: App2AppReceiptResponse.ConnectWallet?
-    var signMessage: App2AppReceiptResponse.SignMessage?
-    var transactions: [App2AppReceiptResponse.Transaction]?
-    var error: App2AppError?
+public struct App2AppReceiptResponse: Decodable {
+    public var requestId: String?
+    public var expiredAt: Int?
+    public var action: String?
+    public var connectWallet: App2AppReceiptResponse.ConnectWallet?
+    public var signMessage: App2AppReceiptResponse.SignMessage?
+    public var transactions: [App2AppReceiptResponse.Transaction]?
+    public var error: App2AppError?
     
     
-    struct ConnectWallet: Decodable {
-        var status: String?
-        var address: String?
-        var errorMessage: String?
+    public struct ConnectWallet: Decodable {
+        public var status: String?
+        public var address: String?
+        public var errorMessage: String?
     }
     
     
-    struct SignMessage: Decodable {
-        var status: String?
-        var signature: String?
-        var errorMessage: String?
+    public struct SignMessage: Decodable {
+        public var status: String?
+        public var signature: String?
+        public var errorMessage: String?
     }
     
     
-    struct Transaction: Decodable {
-        var status: String?
-        var txHash: String?
-        var errorMessage: String?
+    public struct Transaction: Decodable {
+        public var status: String?
+        public var txHash: String?
+        public var errorMessage: String?
     }
 }

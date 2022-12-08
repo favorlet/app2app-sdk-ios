@@ -7,14 +7,27 @@
 
 import Foundation
 
-struct App2AppSendCoinRequest {
+public struct App2AppSendCoinRequest {
     var action: String
     var chainId: Int
     var blockChainApp: App2AppBlockChainApp
     var transactions: [App2AppTransaction]
     
     
-    func convertParams() -> [String: Any] {
+    public init(
+        action: String,
+        chainId: Int,
+        blockChainApp: App2AppBlockChainApp,
+        transactions: [App2AppTransaction]
+    ) {
+        self.action = action
+        self.chainId = chainId
+        self.blockChainApp = blockChainApp
+        self.transactions = transactions
+    }
+    
+    
+    public func convertParams() -> [String: Any] {
         return [
             "action": self.action,
             "chainId": self.chainId,
@@ -24,7 +37,7 @@ struct App2AppSendCoinRequest {
     }
     
     
-    func convertParamsByTransactions() -> [[String: Any?]] {
+    public func convertParamsByTransactions() -> [[String: Any?]] {
         var txArr: [[String: Any?]] = []
         for trans in (self.transactions) {
             txArr.append(trans.convertParams())
