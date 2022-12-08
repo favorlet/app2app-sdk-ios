@@ -7,9 +7,20 @@
 //
 
 import SwiftUI
+import FavorletApp2App
+
 
 @main
 struct FavorletApp2AppExampleApp: App {
+
+    
+    init() {
+        DependencyContainer.defined(by: module {
+            factory { RequestConnectWalletUseCase() as RequestConnectWalletUseCase }
+            
+        })
+    }
+    
     
     var body: some Scene {
         WindowGroup {

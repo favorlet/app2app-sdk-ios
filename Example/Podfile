@@ -4,10 +4,6 @@ platform :ios, '15.0'
 
 target 'FavorletApp2App_Example' do
   pod 'FavorletApp2App', :path => '../'
-  
-  # DIKit (https://github.com/Liftric/DIKit/tree/release)
-  pod 'DIKit', '~> 1.6'
-  
 
   target 'FavorletApp2App_Tests' do
     inherit! :search_paths

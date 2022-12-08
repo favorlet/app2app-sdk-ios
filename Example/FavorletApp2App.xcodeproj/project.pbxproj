@@ -42,6 +42,7 @@
 		9B391A94294091D700A30E3D /* FavorletApp2AppExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavorletApp2AppExampleApp.swift; sourceTree = "<group>"; };
 		9B391A96294091F400A30E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B391AC52941811C00A30E3D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		9B391AE92941AFA200A30E3D /* FavorletApp2App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FavorletApp2App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9E654E715EE01F39A980B3 /* Pods-FavorletApp2App_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavorletApp2App_Example.release.xcconfig"; path = "Target Support Files/Pods-FavorletApp2App_Example/Pods-FavorletApp2App_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EADFFE2C110E94E295B1DCEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FBF9EEFF8D63597FDDCFDED7 /* FavorletApp2App.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FavorletApp2App.podspec; path = ../FavorletApp2App.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -81,6 +82,7 @@
 		538EAB7D44544D4830291245 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B391AE92941AFA200A30E3D /* FavorletApp2App.framework */,
 				71F73CFBBD2BD30B1C46003F /* Pods_FavorletApp2App_Example.framework */,
 				78567D4FA2586A2DC2B78AA6 /* Pods_FavorletApp2App_Tests.framework */,
 			);

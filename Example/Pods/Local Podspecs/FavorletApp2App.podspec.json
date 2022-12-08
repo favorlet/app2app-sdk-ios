@@ -1,7 +1,7 @@
 {
   "name": "FavorletApp2App",
-  "version": "0.1.0",
-  "summary": "A short description of FavorletApp2App.",
+  "version": "0.1.1",
+  "summary": "FavorletApp2App.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/favorlet/app2app-sdk-ios",
   "license": {
@@ -13,15 +13,17 @@
   },
   "source": {
     "git": "https://github.com/favorlet/app2app-sdk-ios.git",
-    "tag": "v0.1.0"
+    "tag": "RELEASE_v0.1.1"
   },
   "platforms": {
     "ios": "15.0"
   },
+  "swift_versions": "5.0",
   "source_files": "FavorletApp2App/Classes/**/*",
   "dependencies": {
     "Alamofire": [
       "~> 5.6.2"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

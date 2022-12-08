@@ -7,12 +7,14 @@
 //
 
 import Foundation
-import DIKit
 import FavorletApp2App
 
 class ContentViewModel: ObservableObject {
     
-    @Inject private var app2AppRepository: App2AppRepository
+    private let requestConnectWalletUseCase = RequestConnectWalletUseCase()
+    private let requestSignMessageUseCase = RequestSignMessageUseCase()
+    private 
+    
     
     @Published var app2appRequestId: String = ""
     @Published var connectedAddress: String = ""
