@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FavorletApp2App_Example' do
+  pod 'FavorletApp2App', :path => '../'
+
+  target 'FavorletApp2App_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
