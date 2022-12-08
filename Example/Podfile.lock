@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.6.4)
+  - DIKit (1.6.0)
+  - FavorletApp2App (0.1.0):
+    - Alamofire (~> 5.6.2)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DIKit (~> 1.6)
+  - FavorletApp2App (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DIKit
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FavorletApp2App:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  DIKit: 0fe7624fc09beb2ec9ef1a83efd973f72feefd4c
+  FavorletApp2App: 109d857fa7c4fbcd89f5e147f0a293ade7987bd6
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: c611a9eeea8b41e96d961ab91ef7d54f9b4dd650
+
+COCOAPODS: 1.11.3
