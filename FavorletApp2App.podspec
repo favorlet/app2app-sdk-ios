@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://favorlet.io'
+  s.homepage         = 'https://github.com/favorlet/app2app-sdk-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'evahpirazzi' => 'evahpirazzi@naver.com' }
   s.source           = { :git => 'https://github.com/favorlet/app2app-sdk-ios.git', :tag => "v#{s.version}" }
