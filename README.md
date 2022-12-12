@@ -55,7 +55,7 @@ iOS app2app SDK는 Cocoapods 를 통한 배포만 지원하고 있으므로, 네
 
 #### Podfile
 ```
-pod 'FavorletApp2App', '~> 0.1.1'
+pod 'FavorletApp2App', '~> 1.0.0'
 ```
 
 > pod install
