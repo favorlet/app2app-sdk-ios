@@ -1,9 +1,9 @@
-# 개요
+# FavorletApp2App
 
 FAVORLET은 NFT의 활용성을 극대화시키는 NFT 전용 지갑입니다. NFT에 특화된 다양한 기능을 제공하고 블록체인 위의 NFT를 오프라인 세상과 연결하여 새로운 NFT 경험을 만들어나가고 있습니다. 
 만약 서비스 중이거나 개발 중인 네이티브 앱 (이하 네이티브 앱)에서 블록체인과 상호작용을 하고자 한다면, FAVORLET의 app2app SDK을 통해 쉽게 구현하실 수 있습니다.
 
-## 기능
+## Example
 
 - 지갑연결 (connectWallet)
 - 메시지 서명 (signMessage)
@@ -16,7 +16,8 @@ FAVORLET의 app2app은 4가지의 기능을 제공합니다.
 <b>코인 전송</b>은 체인의 플랫폼 코인을 전송하는 기능입니다. (현재는 클레이튼 메인넷만 지원) 받을 지갑 주소와 수량을 지정하여 전송하실 수 있습니다. 
 <b>컨트랙트함수 실행</b>은 지정된 컨트랙트의 함수를 실행하는 기능으로, 함수명과 매개변수에 따라 다양한 기능을 수행할 수 있습니다.
 
-## 동작흐름
+FavorletApp2App is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
 - 요청단계 (Request)
 - 실행단계 (Execute)
