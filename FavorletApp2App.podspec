@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FavorletApp2App'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'This is a library for interaction on blockchain in a native application'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
