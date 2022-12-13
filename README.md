@@ -39,6 +39,7 @@ FAVORLET의 app2app은 <b>요청-실행-결과</b>의 3단계로 동작합니다
 
 샘플앱을 실행하시려면, <b>app2app-sdk-ios</b> 저장소를 Clone 하신 후에, /Example 폴더로 이동하여 아래 명령어를 입력해주세요.
 > pod install
+
 XCode에서 /Example/FavorletApp2App.xcworkspace 파일을 열어주세요.
 UI는 <b>activity_main.xml</b>에 구성되어 있고, app2app 연동 관련 기능은 <b>ContentViewModel</b>에 구현되어 있습니다.
 
